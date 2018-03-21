@@ -1,0 +1,16 @@
+steps for creating a file in git hub:-
+
+cd Desktop
+mkdir santosh (to create a folder)
+cd santosh
+git init (initialising the git)
+touch ece.txt (copying the file into git)
+ls (list)
+git add ece.txt (adding text file into git)
+git status on branch master(showing file in git)
+git config --global user.email "santoshmanojbantu@gmail.com"
+git config --global user.name "santoshmanojbantu"
+git commit -m"hello" (commiting the file)
+git remote add origin https://github.com/santoshmanojbantu/mynew.git
+git push -u origin master
+git log
